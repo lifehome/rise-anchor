@@ -1,0 +1,2 @@
+//$.anystretch("http://localhost:8888/anchor/themes/rise/img/bg.jpg");
+jQuery(document).ready(function(e){e("body").addClass("js");e("nav.primary .trigger").click(function(){e("nav.primary ul").slideToggle();return!1});e("div.search-icon .trigger").click(function(){e("div.search").slideToggle();return!1})});
