@@ -10,4 +10,9 @@ jQuery(document).ready(function($) {
     $('div.search').slideToggle();
     return false;
   });
+  $(window).resize(function(){
+    if ($(window).width() > 599 && $(sneakyNav).is(':hidden')) {
+      $(sneakyNav).show();
+    };
+  });
 });
