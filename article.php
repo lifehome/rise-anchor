@@ -3,7 +3,7 @@
 		<section class="content wrap single" id="article-<?php echo article_id(); ?>">
 			<article>
 				<h1><?php echo article_title(); ?></h1>
-				<?php echo article_html(); ?>
+				<?php echo article_markdown(); ?>
 			</article>
 
 			<section class="footnote">
