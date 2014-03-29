@@ -1,9 +1,7 @@
-@import 'helpers.scss';
-
-@include normalize();
+@import 'vendor/normalize', 'vendor/bourbon/bourbon', 'vendor/helpers';
 
 *, *:after, *:before {
-	@include box-sizing();
+	@include box-sizing(border-box);
   -webkit-font-smoothing: antialiased;
 }
 
