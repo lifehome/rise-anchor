@@ -1,5 +1,0 @@
-Theme name:    Rise
-Description:   A minimal, responsive theme for Anchor CMS
-Author name:   Stephen Sauceda
-Author site:   http://stephensauceda.com
-License:       http://licence.visualidiot.com
